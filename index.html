@@ -1,0 +1,39 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="jQuery.js"></script>
+<script type="text/javascript">
+function open_curtain()
+{
+ $("#curtain1").animate({width:20},1000);
+ $("#curtain2").animate({width:20},1000);
+}
+function close_curtain()
+{
+ $("#curtain1").animate({width:200},1000);
+ $("#curtain2").animate({width:191},1000);
+}
+</script>
+</head>
+<body>
+<div id="wrapper">
+
+<div id="effect">
+    <img src="Long Pattern.png" id="Pattern">
+
+ <p class="">WEl COME TO REGISTRATION OF CERTIFIED BUILDER 2022</p>
+ <a href="https://www.citizenservices.gov.bt/cdb/"  id="button"> press</a><br>
+ <img src="Flowers.png" id="flowers">
+ <img src="Curtain1.png" id="curtain1">
+ <img src="Curtain2.png" id="curtain2">
+</div>
+
+<div id="curtain_buttons">
+ <input type="button" value="LUNCH " onclick="open_curtain();">
+ <!-- <input type="button" value="CLOSE CURTAIN" onclick="close_curtain();"> -->
+ 
+</div>
+
+</div>
+</body>
+</html>
