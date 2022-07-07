@@ -18,7 +18,7 @@ body {
 }
 
 #effect {
-    background-color: #4b9e42c5;
+    background-color: #966F33;
     position: relative;
     width: 995px;
     height: 510px;
@@ -26,9 +26,10 @@ body {
 }
 
 #effect p {
-    margin-top: 10px;
+    margin-top: 70px;
     font-size: 30px;
-    color: #000000;
+    color: #ffffff;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 #curtain1 {
@@ -46,16 +47,15 @@ body {
 }
 
 #flowers {
-    margin-top: 200px;
+    margin-top: 100px;
     width: 200px;
     height: 40px;
 }
 
 #pattern {
-    margin-top: 20px;
-    width: 900px;
-    height: 50px;
-    opacity: 50%;
+    width: 970px;
+    height: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 #curtain_buttons input {
@@ -83,4 +83,11 @@ body {
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
+}
+
+#logo{
+    height: 140px;
+    width: 300px;
+    border-radius: 15px;
+    cursor: pointer;
 }
