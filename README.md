@@ -2,6 +2,7 @@
 
 For the inguration and special occassion: Curtain Opeaning using JavaScript!
 <br>
+Best on Bhutanese Authentics
 <br>
 Closed Curtains:
 ![1](https://user-images.githubusercontent.com/92090571/177761264-9831c939-23f6-4380-8689-a0d825634e7f.png)
